@@ -5,9 +5,7 @@ const HeaderWrapper = styled.div`
   display: flex;
   justify-content: space-between;
   height: 5rem;
-  position: fixed;
-  top: 0;
-  width: 80%;
+  width: 100%;
 
   & > h1 {
     font-weight: 800;
@@ -17,7 +15,10 @@ const HeaderWrapper = styled.div`
   }
 
   & > div {
+    align-items: center;
     display: flex;
+    height: 100%;
+
   }
 
   & > div > ul {
@@ -34,6 +35,7 @@ const HeaderWrapper = styled.div`
     height: 2.875rem;
     line-height: 1.5rem;
     letter-spacing: 0.15px;
+    margin-left: 16px;
     outline: none;
     text-align: center;
     width: 10.56rem;
@@ -59,7 +61,7 @@ const HeaderWrapper = styled.div`
         font-weight: 500;
         font-size: 1rem;
         line-height: 1.5rem;
-        margin: 0 32px;
+        margin: 0 16px;
       }
 
       & > li:hover {
