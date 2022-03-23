@@ -39,7 +39,26 @@ const Content = styled.div`
   }
 `;
 
+const ArtcleContainer = styled.div`
+  height: 100%;
+  width: 100%;
+`;
+
+const CardContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+
+  @media (min-width: 767px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+`;
+
 export {
   HomeWrapper,
   Content,
+  CardContainer,
+  ArtcleContainer,
 };
