@@ -38,16 +38,18 @@ const HeaderWrapper = styled.div`
     margin-left: 16px;
     outline: none;
     text-align: center;
+    transition: all 700ms;
     width: 10.56rem;
+    
+    &:hover {
+      background-color: #373737;
+    }
+  
+    &:active {
+      border: 2px solid black;
+    }
   }
 
-  & > button:hover {
-    background-color: #373737;
-  }
-
-  & > button:active {
-    border: 2px solid black;
-  }
 
   @media (min-width: 767px) {
 
