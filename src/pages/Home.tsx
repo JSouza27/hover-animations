@@ -7,6 +7,7 @@ import Info from '../utils/content.json';
 import img from '../assets/Change me to Image.png';
 import CardInfos from '../utils/cardContent';
 import Card from '../components/Card/index';
+import Footer from '../components/Footer';
 
 const Home = () => (
   <HomeWrapper>
@@ -40,6 +41,7 @@ const Home = () => (
         ))
       }
     </CardContainer>
+    <Footer />
   </HomeWrapper>
 );
 

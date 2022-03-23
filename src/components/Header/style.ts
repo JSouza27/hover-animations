@@ -71,6 +71,4 @@ const HeaderWrapper = styled.div`
   }
 `;
 
-export {
-  HeaderWrapper,
-};
+export { HeaderWrapper };
