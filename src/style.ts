@@ -9,7 +9,7 @@ const AppWrapper = styled.div`
   font-family: 'Nunito', sans-serif;
   justify-content: center;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
 `;
 
 export { AppWrapper };

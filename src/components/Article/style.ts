@@ -28,6 +28,7 @@ const ArticleWrapper = styled.div`
 `;
 
 const BgArticle = styled.div`
+  min-width: 27rem;
   max-width: 41.875rem;
   overflow: hidden;
   width: 100%;

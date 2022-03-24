@@ -6,6 +6,15 @@ const HomeWrapper = styled.div`
   flex-direction: column;
   height: 100%;
   width: 85%;
+
+  @media (min-width: 1024px) {
+    width: 75%;
+  }
+
+  @media (min-width: 1200px) {
+    max-width: 1161px;
+    width: 85%;
+  }
 `;
 
 const Content = styled.div`
