@@ -1,46 +1,68 @@
-# Getting Started with Create React App
+# Projeto - Hover Animations
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Boas vindas ao repositório do Projeto - Hover Animations
 
-## Available Scripts
+Esse é um projeto de estudo Front-End de uma página incial de um blog
+onde utilizei um conhecimento básico de React + Typescript e um pouco
+do conceito de mobile first.
 
-In the project directory, you can run:
+Você pode acessar ela por [aqui](https://hover-animations.vercel.app/).
 
-### `yarn start`
+### Stack utilizada
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Typescritpt](https://www.typescriptlang.org/)
+- [React](https://pt-br.reactjs.org/docs/getting-started.html)
+- [Styled Component](https://styled-components.com/docs/basics#getting-started)
+- [ESLint](https://eslint.org/)
+- [Vercel](https://vercel.com/docs)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `yarn test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Rodando localmente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Os comandos abaixo são para serem utilizados no terminal 
+do Ubunto, caso utilize outro sistema operacional 
 
-### `yarn eject`
+### Clonando o repositório
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Abra o terminal e digite o comando abaixo
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+  git clone git@github.com:JSouza27/hover-animations.git
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. Ainda no terminal entre no diretório em que você clonou
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+  cd hover-animations
+```
 
-## Learn More
+3. Instale as dependências
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  yarn install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. Inicie o servidor
+
+```bash
+  yarn start
+```
+
+### Vendo a aplicação on-line
+
+5. Utilizei o servidor [Vercel](https://vercel.com/docs) para efetuar
+o deploy da aplicação e para acessa-la basta clicar nesse [aqui](https://hover-animations.vercel.app/)
+
+## Autores
+
+- [JSouza27](https://www.linkedin.com/in/jsouzap/)
+
+
+## Deploy
+
+Deploy feito no [Vercel](https://vercel.com/docs)
