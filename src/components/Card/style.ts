@@ -20,7 +20,12 @@ const CardWrapper = styled.div`
     transform: scale(1.2);
   }
 
-  @media (min-width: 767px) {
+  @media (min-width: 600px) {
+    height: 31.125rem;
+    width: 22.125rem;
+  }
+
+  @media (min-width: 1200px) {
     height: 31.125rem;
     width: 23.125rem;
   }
