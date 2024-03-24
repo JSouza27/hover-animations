@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const HeaderWrapper = styled.div`
+export const HeaderWrapper = styled.div`
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -18,7 +18,6 @@ const HeaderWrapper = styled.div`
     align-items: center;
     display: flex;
     height: 100%;
-
   }
 
   & > div > ul {
@@ -26,7 +25,7 @@ const HeaderWrapper = styled.div`
   }
 
   & > div > button {
-    background-color: #1E1E1E;
+    background-color: #1e1e1e;
     border: none;
     border-radius: 8px;
     color: white;
@@ -40,19 +39,17 @@ const HeaderWrapper = styled.div`
     text-align: center;
     transition: all 700ms;
     width: 10.56rem;
-    
+
     &:hover {
       background-color: #373737;
     }
-  
+
     &:active {
       border: 2px solid black;
     }
   }
 
-
   @media (min-width: 767px) {
-
     & > div > ul {
       display: flex;
       list-style: none;
@@ -67,10 +64,8 @@ const HeaderWrapper = styled.div`
       }
 
       & > li:hover {
-        border-bottom: 3px solid #327AF9;
+        border-bottom: 3px solid #327af9;
       }
     }
   }
 `;
-
-export { HeaderWrapper };

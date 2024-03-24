@@ -1,28 +1,25 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import IArticle from '../../interfaces/IArticle';
-import { ArticleWrapper, BgArticle, ContentArticle, Flag, Text, Title } from './style';
+import * as S from './style';
 
-
-const Article = (props: IArticle) => {
+export default function Article(props: IArticle) {
   const { flag, title, content, image } = props;
 
   return (
-    <ArticleWrapper>
-      <BgArticle>
+    <S.ArticleWrapper>
+      <S.BgArticle>
         <img src={image} alt="article" />
-      </BgArticle>
-      <ContentArticle>
-        <Flag>{flag}</Flag>
-        <Title>{title}</Title>
-        <Text>{content}</Text>
+      </S.BgArticle>
+      <S.ContentArticle>
+        <S.Flag>{flag}</S.Flag>
+        <S.Title>{title}</S.Title>
+        <S.Text>{content}</S.Text>
         <button type="button">
           <span>Read more</span>
           <HiArrowNarrowRight />
         </button>
-      </ContentArticle>
-    </ArticleWrapper>
+      </S.ContentArticle>
+    </S.ArticleWrapper>
   );
-};
-
-export default Article;
+}

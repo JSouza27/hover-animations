@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-const FooterWrapper = styled.div`
-
+export const FooterWrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
+  margin-top: 30px;
   padding-bottom: 74px;
   width: 100%;
 
@@ -52,5 +52,3 @@ const FooterWrapper = styled.div`
     }
   }
 `;
-
-export { FooterWrapper };

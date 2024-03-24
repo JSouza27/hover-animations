@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const HomeWrapper = styled.div`
+export const HomeWrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -17,7 +17,7 @@ const HomeWrapper = styled.div`
   }
 `;
 
-const Content = styled.div`
+export const Content = styled.div`
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -48,14 +48,15 @@ const Content = styled.div`
   }
 `;
 
-const ArtcleContainer = styled.div`
+export const ArtcleContainer = styled.div`
   height: 100%;
   width: 100%;
 `;
 
-const CardContainer = styled.div`
+export const CardContainer = styled.div`
   display: flex;
   flex-direction: column;
+  gap: 2rem;
   margin-top: 30px;
 
   @media (min-width: 767px) {
@@ -64,10 +65,3 @@ const CardContainer = styled.div`
     justify-content: space-between;
   }
 `;
-
-export {
-  HomeWrapper,
-  Content,
-  CardContainer,
-  ArtcleContainer,
-};

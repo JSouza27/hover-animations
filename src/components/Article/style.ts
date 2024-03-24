@@ -1,8 +1,8 @@
 import styled from 'styled-components';
 
-const ArticleWrapper = styled.div`
+export const ArticleWrapper = styled.div`
   align-items: center;
-  border: 1px solid #EEECEC;
+  border: 1px solid #eeecec;
   border-radius: 8px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
@@ -13,7 +13,7 @@ const ArticleWrapper = styled.div`
   width: 100%;
 
   &:hover {
-    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.1);
   }
 
   &:hover img {
@@ -27,12 +27,12 @@ const ArticleWrapper = styled.div`
   }
 `;
 
-const BgArticle = styled.div`
+export const BgArticle = styled.div`
   min-width: 27rem;
   max-width: 41.875rem;
   overflow: hidden;
   width: 100%;
-  
+
   & > img {
     height: 100%;
     transition: all 1.1s;
@@ -44,7 +44,7 @@ const BgArticle = styled.div`
   }
 `;
 
-const ContentArticle = styled.div`
+export const ContentArticle = styled.div`
   margin: 24px 16px 24px 25px;
 
   & > button {
@@ -74,14 +74,14 @@ const ContentArticle = styled.div`
   }
 `;
 
-const Flag = styled.span`
+export const Flag = styled.span`
   color: #919191;
   font-size: 0.75rem;
   line-height: 21px;
   letter-spacing: 0.15px;
 `;
 
-const Title = styled.h2`
+export const Title = styled.h2`
   color: black;
   font-size: 1.5rem;
   font-weight: 500;
@@ -91,18 +91,9 @@ const Title = styled.h2`
   margin-bottom: 8px;
 `;
 
-const Text = styled.span`
+export const Text = styled.span`
   color: #909090;
   font-size: 1rem;
   line-height: 21px;
   letter-spacing: 0.15px;
 `;
-
-export {
-  ArticleWrapper,
-  Flag,
-  Title,
-  Text,
-  BgArticle,
-  ContentArticle,
-};

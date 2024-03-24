@@ -1,26 +1,25 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import IArticle from '../../interfaces/IArticle';
-import { CardWrapper, FlagCard, BgCard, TextCard, TitleCard, ContentCard } from './style';
+import * as S from './style';
 
-const Card = (props: IArticle) => {
+export default function Card(props: IArticle) {
   const { content, flag, image, title } = props;
+
   return (
-    <CardWrapper>
-      <BgCard>
+    <S.CardWrapper>
+      <S.BgCard>
         <img src={image} alt="card" />
-      </BgCard>
-      <ContentCard>
-        <FlagCard>{flag}</FlagCard>
-        <TitleCard>{title}</TitleCard>
-        <TextCard>{content}</TextCard>
+      </S.BgCard>
+      <S.ContentCard>
+        <S.FlagCard>{flag}</S.FlagCard>
+        <S.TitleCard>{title}</S.TitleCard>
+        <S.TextCard>{content}</S.TextCard>
         <button type="button">
           <span>Read more</span>
           <HiArrowNarrowRight />
         </button>
-      </ContentCard>
-    </CardWrapper>
+      </S.ContentCard>
+    </S.CardWrapper>
   );
-};
-
-export default Card;
+}
